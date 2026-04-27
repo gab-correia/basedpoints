@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Codex BasedPoints</title>
+  <style>
+    :root { --bg:#0b0b0a; --card:#171411; --ink:#f4ead7; --muted:#b8a98f; --gold:#d6a84f; --red:#b84a3b; --green:#74a86b; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family: Georgia, 'Times New Roman', serif; background:radial-gradient(circle at top,#241d13,#0b0b0a 55%); color:var(--ink); }
+    main { max-width:1100px; margin:0 auto; padding:32px 18px 56px; }
+    header { text-align:center; margin-bottom:28px; }
+    h1 { margin:0; font-size:clamp(34px,6vw,64px); letter-spacing:.04em; color:var(--gold); }
+    .subtitle { color:var(--muted); margin-top:8px; }
+    section { background:rgba(23,20,17,.92); border:1px solid rgba(214,168,79,.35); border-radius:18px; padding:22px; margin:18px 0; box-shadow:0 12px 40px rgba(0,0,0,.28); }
+    h2 { color:var(--gold); margin:0 0 16px; }
+    .members { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:14px; }
+    .member { border:1px solid rgba(244,234,215,.14); border-radius:14px; padding:16px; background:#100e0c; }
+    .name { font-size:22px; font-weight:bold; }
+    .bp { font-size:42px; color:var(--gold); margin:8px 0; }
+    .rank { color:var(--muted); }
+    .scale { display:grid; gap:10px; }
+    .tier { display:grid; grid-template-columns:170px 1fr; align-items:center; gap:10px; }
+    .bar { height:24px; border-radius:999px; background:#262019; overflow:hidden; border:1px solid rgba(214,168,79,.2); }
+    .fill { height:100%; background:linear-gradient(90deg,#6b4c1d,var(--gold)); }
+    .rules { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; }
+    .rule { display:flex; justify-content:space-between; gap:14px; border-bottom:1px solid rgba(244,234,215,.11); padding:8px 0; }
+    .plus { color:var(--green); font-weight:bold; white-space:nowrap; }
+    .minus { color:var(--red); font-weight:bold; white-space:nowrap; }
+    footer { text-align:center; color:var(--muted); margin-top:24px; }
+    @media (max-width:620px){ .tier{grid-template-columns:1fr;} }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>✝ CODEX BasedPoints</h1>
+    <div class="subtitle">Esto Vir — Codex v1.0 — saldos iniciados em 0 BP</div>
+  </header>
+
+  <section>
+    <h2>Pontuação dos membros</h2>
+    <div class="members">
+      <div class="member"><div class="name">Gabriel</div><div class="bp">0 BP</div><div class="rank">Normie</div></div>
+      <div class="member"><div class="name">Danilo</div><div class="bp">0 BP</div><div class="rank">Normie</div></div>
+      <div class="member"><div class="name">Menke</div><div class="bp">0 BP</div><div class="rank">Normie</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Escala das Moradas</h2>
+    <div class="scale">
+      <div class="tier"><b>Abaixo de 0 — Lord Cringe</b><div class="bar"><div class="fill" style="width:8%;background:linear-gradient(90deg,#4b1d1d,#b84a3b)"></div></div></div>
+      <div class="tier"><b>0–400 — Normie</b><div class="bar"><div class="fill" style="width:14%"></div></div></div>
+      <div class="tier"><b>400–999 — Based Noviço</b><div class="bar"><div class="fill" style="width:26%"></div></div></div>
+      <div class="tier"><b>1000–1499 — 1ª Morada</b><div class="bar"><div class="fill" style="width:38%"></div></div></div>
+      <div class="tier"><b>1500–2499 — 2ª Morada</b><div class="bar"><div class="fill" style="width:50%"></div></div></div>
+      <div class="tier"><b>2500–3499 — 3ª Morada</b><div class="bar"><div class="fill" style="width:62%"></div></div></div>
+      <div class="tier"><b>3500–4499 — 4ª Morada</b><div class="bar"><div class="fill" style="width:74%"></div></div></div>
+      <div class="tier"><b>4500–5499 — 5ª Morada</b><div class="bar"><div class="fill" style="width:86%"></div></div></div>
+      <div class="tier"><b>5500–6499 — 6ª Morada</b><div class="bar"><div class="fill" style="width:94%"></div></div></div>
+      <div class="tier"><b>6500+ — 7ª Morada</b><div class="bar"><div class="fill" style="width:100%"></div></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Regras do Codex</h2>
+    <div class="rules">
+      <div>
+        <div class="rule"><span>Guardar o domingo na Casa do Senhor</span><span class="plus">+800</span></div>
+        <div class="rule"><span>Profanar o domingo sem causa justa</span><span class="minus">-999</span></div>
+        <div class="rule"><span>Terço em conjunto</span><span class="plus">+400</span></div>
+        <div class="rule"><span>Terço individual</span><span class="plus">+200</span></div>
+        <div class="rule"><span>Jejum de 12h ou mais</span><span class="plus">+300</span></div>
+        <div class="rule"><span>Onanismo</span><span class="minus">-400</span></div>
+        <div class="rule"><span>Margarina consciente</span><span class="minus">-200</span></div>
+        <div class="rule"><span>Mais de uma semana sem treino</span><span class="minus">-300</span></div>
+      </div>
+      <div>
+        <div class="rule"><span>Dizer a verdade inconveniente</span><span class="plus">+500</span></div>
+        <div class="rule"><span>Recusar algo por princípio sob pressão</span><span class="plus">+400</span></div>
+        <div class="rule"><span>Defender opinião impopular com argumento sólido</span><span class="plus">+300</span></div>
+        <div class="rule"><span>Admitir erro sem drama</span><span class="plus">+50</span></div>
+        <div class="rule"><span>Ceder à pressão sem razão</span><span class="minus">-300</span></div>
+        <div class="rule"><span>Fingir apreço para não destoar</span><span class="minus">-300</span></div>
+        <div class="rule"><span>Mendigar validação desnecessária</span><span class="minus">-200</span></div>
+        <div class="rule"><span>Tribunal: Based / Cringe</span><span class="plus">±500</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>In nomine Patris, et Filii, et Spiritus Sancti ✠</footer>
+</main>
+</body>
+</html>
