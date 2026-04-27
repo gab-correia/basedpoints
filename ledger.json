@@ -1,0 +1,50 @@
+{
+  "name": "Codex BasedPoints",
+  "version": "1.0",
+  "timezone": "America/Sao_Paulo",
+  "members": {
+    "Gabriel": {
+      "bp": 400,
+      "rank": "Based Noviço",
+      "activities": [
+        {
+          "timestamp_utc": "2026-04-27T23:23:00Z",
+          "activity": "Rezou o Terço junto com a namorada pela alma de um amigo na missa de sétimo dia",
+          "rule": "terco_em_conjunto",
+          "bp": 400,
+          "note": "Terço em conjunto +400 BP; missa de sétimo dia não pontua no Codex salvo domingo na Casa do Senhor"
+        }
+      ]
+    },
+    "Danilo": {
+      "bp": 0,
+      "rank": "Normie",
+      "activities": []
+    },
+    "Menke": {
+      "bp": 0,
+      "rank": "Normie",
+      "activities": []
+    }
+  },
+  "rules": {
+    "domingo_casa_do_senhor": 800,
+    "domingo_profanado_sem_causa_justa": -999,
+    "terco_em_conjunto": 400,
+    "terco_individual": 200,
+    "jejum_12h_ou_mais": 300,
+    "onanismo": -400,
+    "margarina_consciente": -200,
+    "sem_treino_mais_de_uma_semana": -300,
+    "verdade_inconveniente": 500,
+    "recusar_por_principio_sob_pressao": 400,
+    "opinia_impopular_argumento_solido": 300,
+    "admitir_erro_sem_drama": 50,
+    "ceder_pressao_sem_razao": -300,
+    "fingir_apreco_para_nao_destoar": -300,
+    "mendigar_validacao_desnecessaria": -200,
+    "tribunal_based": 500,
+    "tribunal_cringe": -500
+  },
+  "last_summary_at": null
+}
